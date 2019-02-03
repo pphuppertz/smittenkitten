@@ -1,5 +1,5 @@
 #title {
-    background-color:#ff4c68;
+    background-color:#9873b9;
     color: white;
 }
 
@@ -37,6 +37,7 @@ body {
     font-size: 1.2rem;
     font-family: "Montserrat";
     font-weight: lighter;
+    color: white
 }
 
 /* Download buttons */
@@ -57,11 +58,11 @@ body {
 
 .usp-icon {
     font-size: 5rem;
-    color: #ef8172;    
+    color: #ffcccc;    
 }
 
 .usp-icon:hover {
-    color: #ff4c68;
+    color:#9873b9;    
 }
 
 .usp-text {    
