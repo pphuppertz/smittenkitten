@@ -3,15 +3,27 @@
     color: white;
 }
 
-h1 {
-    font-family: "Montserrat"; 
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;   
+h1, h2 {
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+h1 {    
+    font-size: 3.5rem;       
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 body {
     font-family: "Montserrat";
+    text-align: center
+}
+
+.colored-section {
+    background-color: #9873b9;
+    color: white;
 }
 
 .container-fluid {
@@ -35,8 +47,7 @@ body {
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: "Montserrat";
-    font-weight: lighter;
+    font-weight: 100;
     color: white
 }
 
@@ -51,9 +62,31 @@ body {
     transform: rotate(25deg);
 }
 
+/* Testimonials */
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: #ffcccc;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ffcccc;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
 /* unique selling points */
-.usp {
-    text-align: center;
+.usp {    
 }
 
 .usp-icon {
@@ -66,10 +99,8 @@ body {
 }
 
 .usp-text {    
-    font-family: "Montserrat";
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-align: center;
+    font-weight: 800;
+    font-size: 1.5rem;    
 }
 
 #features {
