@@ -101,85 +101,120 @@
   <!-- Testimonials -->
 
   <section id="testimonials" class="colored-section">
-
-    <h2>No more nightly yowling in the backyard for me. I've found the hottest Calico on SmittenKitten. Purrr.</h2>
-    <img class="testimonial-image" src="images/mackerel-tabby-cat.jpg" alt="cat-profile">
-    <em>Pommetje, The Hague, NL</em>
-
-    <h2 class="testimonial-text">My cats used to be so lonely, but with SmittenKitten's help, they've found the loves of their life (no, the irony is not lost on me).</h2>
-    <img class="testimonial-image" src="images/crazy-cat-lady.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em>
-
+    <div id="testimonial-carousel" class="carousel slide" data-interval="false">
+      <div class="carousel-inner">
+        <div class=" carousel-item active">
+          <h2>No more nightly yowling in the backyard for me. I've found the hottest Calico on SmittenKitten. Purrr.</h2>
+          <img class="testimonial-image" src="images/mackerel-tabby-cat.jpg" alt="cat-profile">
+          <em>Pommetje, The Hague, NL</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My cats used to be so lonely, but with SmittenKitten's help, they've found the
+            loves
+            of their life (no, the irony is not lost on me).</h2>
+          <img class="testimonial-image" src="images/crazy-cat-lady.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+  
+    </div>
   </section>
 
 
   <!-- Press -->
 
   <section id="press" class="colored-section">
-    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/TechCrunch.png" alt="tc-logo">
     <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
     <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
     <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-
   </section>
 
 
   <!-- Pricing -->
 
-  <section id="pricing">
-
+  <section class="white-section" id="pricing">
     <h2>A Plan for Every Cat's Needs</h2>
     <p>Simple and affordable price plans for your and your kittie.</p>
 
-
-    <h3>Singapura</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Bombay Breed</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Maine Coon</h3>
-    <h2>$99 / mo</h2>
-    <p>Priority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
+    <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Singapura</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-lg btn-block btn-outline-dark">Sign up for free</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>>Bombay Breed</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-lg btn-block btn-dark">Sign up</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Maine Coon</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button type="button" class="btn btn-lg btn-block btn-dark">Sign up</button>
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
 
 
   <!-- Call to Action -->
 
   <section id="cta" class="colored-section">
-
-    <h3>Find the True Love of Your Cat's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+      <div class="container-padded">
+          <h2 class="big-heading">Find the True Love of Your Cat's Life Today.</h2>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>
+            Download</button>
+        </div>
   </section>
 
 
   <!-- Footer -->
 
-  <footer id="footer">
-
-    <p>© Copyright 2018 smittenkitten</p>
-    <p>*) The name SmittenKitten is stolen from its owner, Laura Hamm. We ask for forgiveness, not for permission. Meow.</p>
-
+  <footer class="white-section" id="footer">
+    <div class="container-padded">
+      <i class="social fab fa-twitter"></i><i class="social fab fa-facebook-f"></i><i
+        class="social fab fa-instagram"></i><i class="social fas fa-envelope"></i>
+      <p>© Copyright 2019 smittenkitten</p>
+      <p>*) The name SmittenKitten is stolen from its owner, Laura Hamm. I'll make it up to her some day, I promise. Rowr.
+      </p>
+    </div>
   </footer>
-
-
 </body>
-
 </html>
