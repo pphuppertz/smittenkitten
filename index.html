@@ -6,18 +6,16 @@
   <title>SmittenKitten</title>
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Montserrat:100,400,900" rel="stylesheet">
 
-  <!-- Bootstrap CSS -->
+  <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
-  <!-- Our own css -->
   <link rel="stylesheet" href="css/styles.css">
 
-  <!-- FontAwesome (for icons)-->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-  <!-- Boo0tstrap Scripts -->
+  <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -25,18 +23,18 @@
 
 <body>
 
-  <section id="title">
+  <section class="colorful" id="title">
+
     <div class="container-fluid">
+
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">smittenkitten*</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Togglenavigation">
+        <a class="navbar-brand" href="">smittenkitten</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Togglenavigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="">
@@ -44,12 +42,12 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">
+              <a class="nav-link" href="#pricing">
                 Pricing
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">
+              <a class="nav-link" href="#cta">
                 Download
               </a>
             </li>
@@ -58,13 +56,14 @@
       </nav>
 
       <!-- Title -->
-
       <div class="row">
+
         <div class="col-lg-6">
-          <h1>Meet new and interesting cats nearby.</h1>
+          <h1 class="big-heading">Meet new and interesting cats nearby.</h1>
           <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
+
         <div class="col-lg-6">
           <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
         </div>
@@ -72,113 +71,142 @@
     </div>
   </section>
 
-
   <!-- Features -->
+  <section class="white" id="features">
 
-  <section id="features">
     <div class="container-fluid">
+
       <div class="row">
-        <div class="col-lg-4 usp">
-          <i class="fas fa-paw usp-icon"></i>
-          <h3 class="usp-text">Easy to use.</h3>
-          <p style="color:#8f8f8f">So easy to use, even your <i>dog</i> could do it.</p>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-paw fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your <i>kitty</i> could do it.</p>
         </div>
-        <div class="col-lg-4 usp">
-          <i class="fas fa-cat usp-icon"></i>
-          <h3 class="usp-text">Elite Clientele</h3>
-          <p style="color:#8f8f8f">We have all the cats, the greatest cats.</p>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-cat fa-4x"></i>
+          <h3 class="feature-title">Elite Clientele</h3>
+          <p>We have all the cats, the greatest cats.</p>
         </div>
-        <div class="col-lg-4 usp">
-          <i class="fas fa-paw usp-icon"></i>
-          <h3 class="usp-text">Guaranteed to work.</h3>
-          <p style="color:#8f8f8f">Find the love of your cat's life or your money back.</p>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p>Find the love of your cat's life or your money back.</p>
         </div>
       </div>
     </div>
-  </section>
 
+  </section>
 
   <!-- Testimonials -->
+  <section class="colorful" id="testimonials">
 
-  <section id="testimonials">
-
-    <h2>No more nightly yowling in the backyard for me. I've found the hottest Calico on SmittenKitten. Purrr.</h2>
-    <img src="images/mackerel-tabby-cat.jpg" alt="cat-profile">
-    <em>Pommetje, The Hague, NL</em>
-
-    <h2 class="testimonial-text">My cats used to be so lonely, but with SmittenKitten's help, they've found the loves of their life (no, the irony is not lost on me).</h2>
-    <img class="testimonial-image" src="images/crazy-cat-lady.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em>
+    <div id="testimonial-carousel" class="carousel" data-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="textimonial-text">No more nightly yowling in the backyard for me. I've found the hottest Calico on SmittenKitten. Purrr.</h2>
+          <img class="testimonial-image" src="images/mackerel-tabby-cat.jpg" alt="cat-profile">
+          <em>Pommetje, The Hague, NL</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My cats used to be so lonely, but with SmittenKitten's help, they've found the loves of their lives.</h2>
+          <img class="testimonial-image" src="images/crazy-cat-lady.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">I've tried other purrsonals, but this one's the cat's meow!</h2>
+          <img class="testimonial-image" src="images/Tabby.jpg" alt="tabby-profile">
+          <em>Tabbytha, Missouri</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
 
   </section>
 
-
   <!-- Press -->
-
-  <section id="press">
+  <section class="colorful" id="press">
     <img src="images/techcrunch.png" alt="tc-logo">
     <img src="images/tnw.png" alt="tnw-logo">
     <img src="images/bizinsider.png" alt="biz-insider-logo">
     <img src="images/mashable.png" alt="mashable-logo">
-
   </section>
-
 
   <!-- Pricing -->
+  <section class="white" id="pricing">
 
-  <section id="pricing">
+    <h2 class="section-heading">A Plan for Every Cat's Needs</h2>
+    <p>Simple and affordable price plans for your and your feline.</p>
 
-    <h2>A Plan for Every Cat's Needs</h2>
-    <p>Simple and affordable price plans for your and your kittie.</p>
+    <div class="row">
 
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Siamese</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-text">Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
 
-    <h3>Singapura</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Persian</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="pricing-text">$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
 
-
-    <h3>Bombay Breed</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Maine Coon</h3>
-    <h2>$99 / mo</h2>
-    <p>Priority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Maine Coon</h3>
+          </div>
+          <h2 class="pricing-text">$99 / mo</h2>
+          <p>Priority Listing</p>
+          <p>Unlimited Matches</p>
+          <p>Unlimited Messages</p>
+          <p>Unlimited App Usage</p>
+          <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+    </div>
 
   </section>
-
 
   <!-- Call to Action -->
-
   <section id="cta">
-
-    <h3>Find the True Love of Your Cat's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+    <div class="container-fluid">
+      <h3 class="big-heading">Find the True Love of Your Cat's Lives Today.</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
   </section>
 
-
   <!-- Footer -->
-
   <footer id="footer">
-
     <p>© Copyright 2018 smittenkitten</p>
-    <p>*) My name is Laura Hamm and I thought of this name.</p>
-
+    <p>Pro-grammar Programmer, LLC</p>
   </footer>
-
 
 </body>
 
